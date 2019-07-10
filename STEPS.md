@@ -88,15 +88,15 @@ Add a custom webfont to use for the theme and set the `font-family` SCSS variabl
 ```scss
 // Font
 @font-face {
-  font-family: "lego_brixregular";
-  src: url("../font/lego_brix-webfont.woff2") format("woff2"), url("../font/lego_brix-webfont.woff")
+  font-family: "brixregular";
+  src: url("../../brix/brix-webfont.woff2") format("woff2"), url("../../brix/brix-webfont.woff")
       format("woff");
   font-weight: normal;
   font-style: normal;
 }
 
 // Font
-$font-family: "lego_brixregular", "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$font-family: "brixregular", "Helvetica Neue", Helvetica, Arial, sans-serif !default;
 ```
 
 ## Font weight & Sizing
