@@ -152,7 +152,8 @@ Customize the zoom widget only.
 
 ```scss
 .esri-widget--button {
-      background-color: blue;
+      background-color: white;
+      color: black;
 ```
 
 ## Open a widget base file and modify
